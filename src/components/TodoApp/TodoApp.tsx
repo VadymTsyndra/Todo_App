@@ -92,6 +92,7 @@ export const TodoApp: React.FC = () => {
               checked={notCompletedTogglers.length === 0}
               onChange={(event) => handleToggleAll(event.target.checked)}
             />
+            {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
             <label htmlFor="toggle-all">Mark all as complete</label>
 
             <TodoList

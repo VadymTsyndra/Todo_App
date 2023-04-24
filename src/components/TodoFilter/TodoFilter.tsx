@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line no-shadow
 export enum StatusOfFilter {
   All = 'all',
   Active = 'active',

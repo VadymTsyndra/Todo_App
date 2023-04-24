@@ -89,6 +89,7 @@ export const TodoItem: React.FC<Props> = ({
               handleToggle(event, todo.id);
             }}
           />
+          {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
           <label>
             {todo.title}
           </label>
