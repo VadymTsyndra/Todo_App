@@ -12,4 +12,4 @@ To run the project, follow these steps:
 Clone the repository with the command git clone https://github.com/VadymTsyndra/Todo_App.git
 Install dependencies with the command npm install
 Start the app with the command npm start
-After that, the app will be available at http://localhost:3000.
+After that, the app will be available at https://vadymtsyndra.github.io/Todo_App/.
